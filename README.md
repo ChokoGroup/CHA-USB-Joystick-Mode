@@ -2,8 +2,9 @@
 Use the CHA as 2 USB joysticks.
 Tested with Windows, Linux, Android (tablets and TV).
 
-### Thanks JJ_0 for the discovery!
-CHOKO HACK v11.0.0 REQUIRED
+
+### Thanks to JJ_0 for the discovery!
+CHOKO HACK v11 REQUIRED
 
 1. Extract and copy the folder "Choko Hack v11 Joystick Mode" to the root of USB pendrive.
 2. Insert the pendrive in CHA USB EXT and power on.
@@ -21,18 +22,18 @@ We can power up the CHA using only an USB-A to USB-A cable from the CHA USB port
 ### Buttons Configuration
 The CHA is detected as one drvice with two independent "game pads", each with one joystick and 8 buttons.
 Unfortunately, the detected layout is not the best:
-
+```
              R1 L1
 
    ( J )   A  B  C
            X  Y  Z
+```
 
-
-With front-ends where we can define each button function, like RetroArch, MAME or Steam, this is not a big problem.
-With games that run outside an emulator, each game has its way to handle the buttons. Many are playable with the CHA, many don't.
+With front-ends where we can remap the buttons, like RetroArch, MAME or Steam, this is not a big problem.
+With independent games that run outside an emulator, each game has its way to handle the buttons. Many are playable with the CHA, many don't.
 
 
 ### Notes
 - In RetroArch, the first time you use the CHA as joysticks you must setup remap D-PAD UP, DOWN, LEFT and RIGHT, as well as all the buttons, SELECT and START in particular.
 - In Steam, some games (like Tekken) require that you define a button to make the joystick to be mapped as d-pad in order to navigate the menus.
-- 
+- "Safe Shutdown" and "Safe Reboot" buttons combos still work in USB Joystick Mode.
