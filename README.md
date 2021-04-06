@@ -1,6 +1,6 @@
 # CHA USB-Joystick-Mode
 Use the CHA as 2 USB joysticks.
-Tested with Windows, Linux, Android (tablets and TV).
+Tested on CHA firmware 1.6 with Windows PC, Linux PC, Android tablet, Android TV and PS3.
 
 
 ### Thanks to JJ_0 for the discovery!
@@ -20,10 +20,10 @@ We can power up the CHA using only an USB-A to USB-A cable from the CHA USB port
 
 
 ### Buttons Configuration
-The CHA is detected as one drvice with two independent "game pads", each with one joystick and 8 buttons.
-Unfortunately, the detected layout is not the best:
+The CHA is detected as one device with two independent "game pads", each with one joystick and 8 buttons.
+Unfortunately, the detected layout is not the best. This is what Android reports:
 ```
-             R1 L1
+             R1 L1  <- Yes, they are swapped
 
    ( J )   A  B  C
            X  Y  Z
@@ -31,7 +31,7 @@ Unfortunately, the detected layout is not the best:
 
 With front-ends where we can remap the buttons, like RetroArch, MAME or Steam, this is not a big problem.
 With independent games that run outside an emulator, each game has its way to handle the buttons. Many are playable with the CHA, many don't.
-
+In the very few PlayStation 3 games tested, CHA only worked with Mortal Kombat.
 
 ### Notes
 - In RetroArch, the first time you use the CHA as joysticks you must setup remap D-PAD UP, DOWN, LEFT and RIGHT, as well as all the buttons, SELECT and START in particular.
