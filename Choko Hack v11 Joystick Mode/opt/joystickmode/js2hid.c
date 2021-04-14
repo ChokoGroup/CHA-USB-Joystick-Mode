@@ -7,7 +7,7 @@
 
 int main( int argc , char* argv[] )
 {
-  if(argc < 2)
+  if(argc < 3)
   {
     printf("\nUsage: %s joystick_input hid_output",argv[0]);
     printf("\nExample: %s /dev/input/js0 /dev/hidg0\n",argv[0]);

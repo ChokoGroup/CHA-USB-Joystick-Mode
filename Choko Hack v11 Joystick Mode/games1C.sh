@@ -5,7 +5,7 @@ RUNNINGFROM="$(dirname "$(realpath "$0")")"
 
   # Put files in FAT partition
   cp -R "$RUNNINGFROM/opt"/* /opt/
-  cp "$RUNNINGFROM/opt/joystickmode/jshid.sh.XYZ" /opt/joystickmode/jshid.sh
+  cp "$RUNNINGFROM/opt/joystickmode/jshid.XYZ.sh" /opt/joystickmode/jshid.sh
   cp "$RUNNINGFROM/joystickmode.nfo" /.choko/games2I.nfo
   cp "$RUNNINGFROM/joystickmode2I.sh" /.choko/games2I.sh
   # If this is the first list of games being copied then install the menu
