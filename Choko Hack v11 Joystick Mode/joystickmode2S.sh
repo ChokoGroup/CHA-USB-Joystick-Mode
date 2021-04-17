@@ -8,11 +8,11 @@ then
   # CHA is running in Joystick Mode
   CHA2S="0"
   echo -e "\nPress \e[1;94m[P2 START]\e[m to restore CHA system."
-  COUNTDOWN=5
-  while [ "$CHA2S" = "0" ] && [ $COUNTDOWN -ge 0 ]
+  COUNTDOWN=6
+  while [ "$CHA2S" = "0" ] && [ $COUNTDOWN -gt 0 ]
   do
-    echo -ne "\rWaiting $COUNTDOWN seconds... "
     COUNTDOWN=$((COUNTDOWN - 1))
+    echo -ne "\rWaiting $COUNTDOWN seconds... "
     sleep 1
     /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
     CHA2S=$?
