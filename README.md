@@ -1,8 +1,9 @@
 # CHA USB-Joystick-Mode
 Use the CHA as 2 USB joysticks.
 Tested on CHA firmware 1.6 with Windows PC, Linux PC, Android tablet, Android TV and PS3.
-* This feature will be included in 1.7 official firmware! Cheers to Koch Media and CHA developers *
-
+* This feature will be included in 1.7 official firmware! Cheers to Koch Media and CHA developers. *
+* Choko Hack v12.3.0 supports official USB Joystick Mode in firmware 1.7+. *
+* This pack is now considered obsolete and no longer supported. *
 
 ### Thanks to JJ_0 for the discovery!
 CHOKO HACK v12 REQUIRED
